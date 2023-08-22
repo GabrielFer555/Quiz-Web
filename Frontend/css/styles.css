@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/Frontend/img/—Pngtree—vector\ crystal\ purple\ background_1394349.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.mainQuiz{
+    background: #fff;
+    display: inline-block;
+    padding: 20px;
+    width: 60%;
+    height: 100vh;
+}
+
+
+.introduction{
+    padding : 30px 10px;
+    line-height: 1.5;
+}
+.textInputs{
+    margin: 20px 20px 10px 6px;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
