@@ -13,6 +13,9 @@
 
     </div>
     <form action="" method="POST" class="mainQuiz">
+        <div class="progress-bar">
+            <div class="progress-content"></div>
+        </div>
         <div class="introduction">
             <h1 class="title">Quiz de Conhecimentos Gerais</h1>
             <p>Bem vindo a um Quiz de conhecimentos gerais <br> Teste seus conhecimentos sobre história e geografia</p>
@@ -23,12 +26,16 @@
             <label for="nascimentoData" class="labels">Data de Nascimento</label>
             <input type="date" name="nascimentoData" id="nascimentoData" class="textInputs">
         </div>
+        <div class="btn-box">
+            <button class="button" type="button" id="next-button">Próximo</button>
+            <button class="button" id="back-button">Voltar</button>
+        </div>
     </form>
     <div class="laterals">
         
     </div>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
 </html>
