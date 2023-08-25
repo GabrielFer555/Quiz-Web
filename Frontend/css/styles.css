@@ -30,19 +30,22 @@ input, input::placeholder {
 }
 .title{
     font-family: 'Pacifico', cursive;
-    padding-bottom: 2em;
+    padding-bottom: 4vw;
     color: #fff;
 }
 
 .introduction{
-    padding : 30px 10px;
+    padding : 20px 10px;
     line-height: 1.5;
 }
 .textInputs{
-    margin: 1em 2em 8em 2em;
+    margin: 1vw 2vw 8vw 2vw;
     border: 2px solid #fff;
     border-radius: 6px;
-
+    width: 10vw;
+    height: 1.5vw;
+    padding: 1px;
+    outline: none;
 }
 
 .progress-bar{
@@ -57,7 +60,7 @@ input, input::placeholder {
 }
 .btn-box{
     display: inline-block;
-    padding: 20vh;
+    padding: 6vw;
 }
 .button{
     width: 10vw;
@@ -70,6 +73,7 @@ input, input::placeholder {
     transition: 0.8s;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 24;
+    flex-wrap: wrap-reverse;
 }
 .button:hover{
     background: #92ff58;
